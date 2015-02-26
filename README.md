@@ -11,7 +11,7 @@ This client is based on https://github.com/swissbib/swissbibMobile
 Currently swissbib is developing a linked data infrastructure with various interfaces - e.g. a REST interface for RDF data.
  
 At the moment this work is in it's early infancy state but nevertheless accessible 
-sb-vf22.swissbib.unibas.ch/resource
+http://sb-vf22.swissbib.unibas.ch/resource
 You can find the Gitub repository on 
 https://github.com/linked-swissbib/linkedSwissbibREST
 
