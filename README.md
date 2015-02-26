@@ -8,9 +8,14 @@ Taylored for NB Hackathon, Berne (27.2.2015), to simplify the usage of library m
  
 This client is based on https://github.com/swissbib/swissbibMobile
 
-Currently swissbib is developing a linked data infrastructure with various interfaces - e.g. a REST interface for RDF data.
- 
-At the moment this work is in it's early infancy state but nevertheless accessible 
+For more information about the SRU interface go to http://sru.swissbib.ch 
+This interface is heavily used by the German KVK http://www.ubka.uni-karlsruhe.de/kvk.html
+
+
+Currently swissbib is developing a linked data infrastructure with various interfaces for public access  
+- e.g. a REST interface for RDF data.
+
+ At the moment this work is in early infancy state but nevertheless accessible 
 http://sb-vf22.swissbib.unibas.ch/resource
 You can find the Gitub repository on 
 https://github.com/linked-swissbib/linkedSwissbibREST
