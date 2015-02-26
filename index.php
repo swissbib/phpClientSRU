@@ -34,29 +34,9 @@ include("include/Header.php");
 
 
 
-$keyArray = [
-    'eins' => 11,
-    'zwei'  => 10
-
-
-];
-
-$noKeysArray = [
-    2,5,1,10,3
-];
-
-    $myAsort =  asort($keyArray);
-    $noKeySort = sort($noKeysArray);
-    sort($keyArray);
-
-    $testNoKeyWithAsort = asort($noKeysArray);
-
-
-
-
 if (isset($_REQUEST["q"])) {
 
-    $offset = isset($_REQUEST["offset"]) ? isset($_REQUEST["offset"]) : 1;
+    $offset = isset($_REQUEST["offset"]) ? $_REQUEST["offset"] : 1;
 
     if (isset($_REQUEST["network"]))
     {
@@ -71,7 +51,10 @@ if (isset($_REQUEST["q"])) {
 
 
     $documents =  search($_REQUEST["q"], $network, $library, $offset);
-    print_r($documents);
+
+    $print = new SimplePrintOut();
+    $print->printOut($documents);
+
 
 
     //go ahead! now use the returned documents

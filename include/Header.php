@@ -13,4 +13,6 @@ include('include/MobileConfigs.php');
 include ('include/SchemaTypes.php');
 include ('include/LibraryItems.php');
 
+include ('include/SimplePrintOut.php');
+
 ?>
